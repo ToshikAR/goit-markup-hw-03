@@ -1,0 +1,275 @@
+:root {
+  --dark-bgr: #2E2F42;
+  --backgr-color: #ffffff;
+  --body-color:#2E2F42;
+  --backgr-btn: #4D5AE5;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: var(--backgr-color);
+  color: var(--body-color);
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 100%;
+  height: auto; 
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width : 100%;
+  padding-left : 0%;
+  padding-right : 0%;
+  margin-left : 0;
+  margin-right : 0;
+}
+
+/* Top line */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 0%;
+}
+
+/* Logo */
+.logo-link{
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.logo-first{
+  color: var(--backgr-btn);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.Tlogo-second{
+  color: var(--body-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.Flogo-second{
+  color: var(--backgr-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.header nav {
+  padding-left: 10%;
+}
+
+.header ul {
+  display: flex;
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  gap: 20%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.header address{
+  display: flex;
+  gap: 40px;
+  padding-left: 25%;
+}
+
+.header a{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Top Line */
+.hero-image {
+  text-align: center;
+  justify-content: center;
+  color: var(--backgr-color);
+  background-color: var(--dark-bgr);
+  padding: 10% 30%;
+}
+
+.hero-image h1 {
+  padding-bottom: 5%;
+}
+
+button {
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  background: var(--backgr-btn);
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+/*Section 1*/
+.Section-1 {
+  padding: 7%;
+  margin: 0;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 2%;
+
+}
+
+.Section-1 h3 {
+  padding-bottom: 10px;
+}
+
+/*Section 2*/
+.Section-2 {
+  background-color: #F4F4FD;
+  padding: 0;
+  margin: 0; 
+}
+
+.Section-2 h2 {
+  padding: 4%;
+}
+
+.horizontal-grid {
+  display: flex;
+  gap: 2%;
+  padding-bottom: 10%;
+  justify-content: center;
+  list-style: none;
+  overflow-x: auto;
+}
+
+.horizontal-grid li {
+  background-color: #ffffff;
+}
+
+.horizontal-grid h3 {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.horizontal-grid p {
+  padding-top: 2%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+/* Section 3 */
+.Section-3 {
+  background-color: var(--backgr-color);
+  padding: 0;
+  margin: 0; 
+  padding-bottom: 7%;
+}
+
+.Section-3 h2 {
+  padding: 5%;
+}
+
+.row {
+  display: flex;
+  gap: 1%;
+  margin-bottom: 1%;
+  background-color: var(--backgr-color);
+  justify-content: center;
+  list-style: none;
+}
+
+.column {
+  background-color: var(--backgr-color);
+  box-sizing: border-box;
+}
+
+.column h3 {
+  padding-left: 5px;
+}
+
+.column p {
+  padding-left: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-bgr);
+  color: var(--backgr-color);
+  padding: 3% 5%;
+}
+
+.footer a, p {
+  display: block;
+  width: 264px;
+  margin-bottom: 10px;
+}
+
